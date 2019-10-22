@@ -1,0 +1,11 @@
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.deps.json
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.runtimeconfig.json
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.runtimeconfig.dev.json
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.dll
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.pdb
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.csprojAssemblyReference.cache
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.csproj.CoreCompileInputs.cache
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.AssemblyInfoInputs.cache
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.AssemblyInfo.cs
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.dll
+C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.pdb
