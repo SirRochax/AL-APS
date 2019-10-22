@@ -7,19 +7,17 @@ namespace AL_APS
     {
         static void Main(string[] args)
         {
-            string palavra;
-            int length;
-
-
             Console.WriteLine("Insira uma palavra!(6 dígitos)");
-            palavra = Console.ReadLine();
-            length = palavra.Length;
+            string word = Console.ReadLine();
+            int length = word.Length;
 
-            var conversor = new ConversorService();
-            palavra = palavra.ToUpper();
-            var matrix = conversor.ConversorPalavra(palavra);
+            var converter = new CryptographyService();
+            word = word.ToUpper();
+            var matrix = converter.ConverterWordToMatrix(word);
 
+            var mc = converter.CryptographyMatrix(matrix);
 
+            //Feito o conversor e criptografia da matrix, falta descriptografar, converter para palavra e finalizar as validações
 
         }
     }

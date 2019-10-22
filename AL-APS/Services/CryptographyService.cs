@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AL_APS.Services
 {
-    class ConversorService
+    class CryptographyService
     {
         enum Tabel
         {
@@ -38,30 +38,39 @@ namespace AL_APS.Services
             Y,
             Z
         };
-        
-        public string[,] ConversorPalavra(string palavra)
+
+        public int[,] ConverterWordToMatrix(string word)
         {
-            string[,] convertido = new string[3, 2];
+            int[,] converted = new int[3, 2];
             int i = 0;
-            for (int l = 0; l <3; l++)
-                for(int c=0; c < 2; c++)
+            for (int c = 0; c < 2; c++)
+                for (int l = 0; l < 3; l++)
                 {
-                    var p = palavra.Substring(i, 1);
+                    var p = word.Substring(i, 1);
                     foreach (string s in Enum.GetNames(typeof(Tabel)))
-                        if (p.Equals(s)) {
+                        if (p.Equals(s))
+                        {
                             var x = (int)Enum.Parse(typeof(Tabel), p);
-                            convertido[l, c] = Convert.ToString(x);
+                            converted[l, c] = x;
                         }
                     i++;
                 }
-            return convertido;
+            return converted;
         }
 
-        public string[,] CryptographyMatrix(string matrix)
+        public int[,] CryptographyMatrix(int[,] matrix)
         {
-            string[,] convertido = new string[3, 2];
+            int[,] criptographyMatrix = new int[3, 2];
+            int[,] criptography = new int[,]
+            { { 1, 0, 1 },
+              { 1, 1, 1 },
+              { 0, 2,-1 }};
+            for (int i = 0; i < 2; i++)
+                for (int l = 0; l < 3; l++)
+                    for (int c = 0; c < 3; c++)
+                        criptographyMatrix[l, i] += criptography[l, c] * matrix[c, i];
 
-            return convertido;
+            return criptographyMatrix;
         }
     }
 }
