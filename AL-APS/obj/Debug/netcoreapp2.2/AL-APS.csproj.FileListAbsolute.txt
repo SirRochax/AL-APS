@@ -9,3 +9,14 @@ C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcorea
 C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.AssemblyInfo.cs
 C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.dll
 C:\Users\matheus.gasparini\Documents\Unicarioca\AL-APS\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.pdb
+D:\Facul\APS\Algebra Linear\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.deps.json
+D:\Facul\APS\Algebra Linear\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.runtimeconfig.json
+D:\Facul\APS\Algebra Linear\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.runtimeconfig.dev.json
+D:\Facul\APS\Algebra Linear\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.dll
+D:\Facul\APS\Algebra Linear\AL-APS\bin\Debug\netcoreapp2.2\AL-APS.pdb
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.csprojAssemblyReference.cache
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.csproj.CoreCompileInputs.cache
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.AssemblyInfoInputs.cache
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.AssemblyInfo.cs
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.dll
+D:\Facul\APS\Algebra Linear\AL-APS\obj\Debug\netcoreapp2.2\AL-APS.pdb

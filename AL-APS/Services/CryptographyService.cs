@@ -47,12 +47,15 @@ namespace AL_APS.Services
                 for (int l = 0; l < 3; l++)
                 {
                     var p = word.Substring(i, 1);
-                    foreach (string s in Enum.GetNames(typeof(Tabel)))
+                    foreach (string s in Enum.GetNames(typeof(Tabel))) { 
                         if (p.Equals(s))
                         {
-                            var x = (int)Enum.Parse(typeof(Tabel), p);
-                            converted[l, c] = x;
+                            var num = (int)Enum.Parse(typeof(Tabel), p);
+                            converted[l, c] = num;
+                            break;
                         }
+                        
+                    }
                     i++;
                 }
             return converted;
@@ -60,7 +63,7 @@ namespace AL_APS.Services
 
         public int[,] CryptographyMatrix(int[,] matrix)
         {
-            int[,] criptographyMatrix = new int[3, 2];
+            int[,] encriptedArray = new int[3, 2];
             int[,] criptography = new int[,]
             { { 1, 0, 1 },
               { 1, 1, 1 },
@@ -68,9 +71,9 @@ namespace AL_APS.Services
             for (int i = 0; i < 2; i++)
                 for (int l = 0; l < 3; l++)
                     for (int c = 0; c < 3; c++)
-                        criptographyMatrix[l, i] += criptography[l, c] * matrix[c, i];
+                        encriptedArray[l, i] += criptography[l, c] * matrix[c, i];
 
-            return criptographyMatrix;
+            return encriptedArray;
         }
     }
 }
